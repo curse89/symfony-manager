@@ -19,6 +19,16 @@
 /var/log/*
 !var/log/.gitkeep
 
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/manager/config/secrets/prod/prod.decrypt.private.php
+/manager/public/bundles/
+/manager/var/
+/manager/vendor/
+###< symfony/framework-bundle ###
+
 # Parameters
 /app/config/parameters.yml
 /app/config/parameters.ini
